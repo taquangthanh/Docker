@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  hello:
+    container_name: "hello"
+    image: "hello-name"
+    ports:
+      - "8090:8080"
+  name:
+    container_name: "name"
+    image: "name-sir"
+    ports:
+      - "8091:8081"
